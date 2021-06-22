@@ -28,11 +28,8 @@ function someAction(e) {
         return;
     }
 
-         if (e.target.dataset.action === 'start' && isActive === false) {
-        
-         isActive = true;
+        isActive = true;
         intervalColor = setInterval(() => {switchColor();}, 1000);          
-    }
 
 };
 
